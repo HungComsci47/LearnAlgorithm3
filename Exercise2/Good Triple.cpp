@@ -4,21 +4,21 @@ int main()
 {
 	string s;
 	getline(cin,s);
-	int n=s.length();
-	int res=0;
-	int count=n;
+	long long int res=0;
+	long long int n=s.length();
+  long long int cnt=n;
 	for(int i=n-1;i>=0;i--)
 	{
-		for(int k=1;2*k+i<count;k++)
+		for(int k=1;i+2*k<cnt;k++)
 		{
-			if(s[i]==s[i+k] && s[i+2*k]==s[i+k])
-			{
-				count=i+2*k;
-				break;
-			}
+		     if(s[i]==s[i+k] && s[i]==s[i+2*k])
+		     {
+		     	cnt=i+2*k;
+		     	break;
+			 }
 		}
-		res+=n-count;
+    res+=n-cnt;
 	}
-	cout<<count;
+	cout<<res;
 	return 0;
 }
