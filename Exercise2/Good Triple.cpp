@@ -6,7 +6,7 @@ int main()
 	getline(cin,s);
 	long long int res=0;
 	long long int n=s.length();
-  long long int cnt=n;
+        long long int cnt=n;
 	for(int i=n-1;i>=0;i--)
 	{
 		for(int k=1;i+2*k<cnt;k++)
@@ -15,9 +15,9 @@ int main()
 		     {
 		     	cnt=i+2*k;
 		     	break;
-			 }
+		     }
 		}
-    res+=n-cnt;
+       res+=n-cnt;
 	}
 	cout<<res;
 	return 0;
