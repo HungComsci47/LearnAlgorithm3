@@ -42,5 +42,5 @@ int main() {
     }
     dijkstra();
     for (int i = 1; i <= n; i++)
-        printf("d( 1 -> %d ) = %d\n", i, d[i]);
+        cout<<d[i]<<" ";
 }
