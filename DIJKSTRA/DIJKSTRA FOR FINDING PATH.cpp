@@ -30,7 +30,6 @@ void dijkstra() {
     d[i] = oo;
     d[1] = 0;
     pq.push(ii(0, 1));
-
     while (pq.size()) {
         int u = pq.top().second;
         int du = pq.top().first;
