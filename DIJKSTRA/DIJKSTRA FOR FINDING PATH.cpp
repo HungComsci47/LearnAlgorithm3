@@ -1,4 +1,5 @@
-// Input
+/* 
+Input:
 7 16
 0 1 5
 0 7 8
@@ -16,10 +17,9 @@
 5 6 13
 7 2 7
 7 5 6
-//
-//Output
+Output:
 0 11 14 9 10 22 4
-//
+*/
 #include <bits/stdc++.h>
 using namespace std;
 const int oo = 1000111000;
