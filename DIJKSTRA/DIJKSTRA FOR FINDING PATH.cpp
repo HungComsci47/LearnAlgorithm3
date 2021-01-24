@@ -1,5 +1,8 @@
 // Input
-7 13
+7 16
+0 1 5
+0 7 8
+0 4 9
 1 2 12
 1 3 15
 1 7 4
@@ -15,7 +18,7 @@
 7 5 6
 //
 //Output
-0 11 4 9 10 22 4
+0 11 14 9 10 22 4
 //
 #include <bits/stdc++.h>
 using namespace std;
