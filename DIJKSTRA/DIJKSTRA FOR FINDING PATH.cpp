@@ -54,7 +54,7 @@ void dijkstra() {
 int main() {
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
-    int p, q, m, w;
+    int p, q, w;
     cin>>n>>m;
     while (m--) {
         cin>>p>>q>>w;
