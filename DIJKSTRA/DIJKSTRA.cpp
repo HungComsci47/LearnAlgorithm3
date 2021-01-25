@@ -1,4 +1,16 @@
 /*HungVoCs47*/
+/*
+INPUT:
+5 6
+1 2 2
+2 5 5
+2 3 4
+1 4 1
+4 3 3
+3 5 1
+OUTPUT:
+1 4 3 5 
+*/
 #include <bits/stdc++.h>
 using namespace std;
 const int oo = 1000111000;
