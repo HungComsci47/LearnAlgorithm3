@@ -19,7 +19,7 @@ Input:
 7 2 7
 7 5 6
 Output:
-0 11 14 9 10 22 4
+0 11 14 INF 10 22 4
 */
 # include <bits/stdc++.h>
 using namespace std;
