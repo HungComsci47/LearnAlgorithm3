@@ -1,3 +1,26 @@
+/* HungVoCs47 */
+/* 
+Input:
+7 16
+0 1 5
+0 7 8
+0 4 9
+1 2 12
+1 3 15
+1 7 4
+2 3 3 
+2 6 11
+3 6 9 
+4 5 4 
+4 6 20
+4 7 5
+5 2 1
+5 6 13
+7 2 7
+7 5 6
+Output:
+0 11 14 INF 10 22 4
+*/
 # include <bits/stdc++.h>
 using namespace std;
 const int INF=1e8;
