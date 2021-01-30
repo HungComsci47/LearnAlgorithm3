@@ -1,4 +1,5 @@
 /*HungVoCs47*/
+/* sum 2 số nhỏ nhất tại 1 thời điểm, nghĩ tới minheap */
 # include <bits/stdc++.h>
 using namespace std;
 # define ll long long int 
