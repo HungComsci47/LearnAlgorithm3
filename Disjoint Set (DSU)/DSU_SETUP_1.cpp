@@ -1,3 +1,24 @@
+/*HungVoCs47*/
+/*
+INPUT:
+8 11
+1 3 4
+1 1 3
+1 2 5 
+1 6 7
+2 5 6 
+2 4 7 
+1 5 7
+2 5 6
+2 4 7
+1 4 7
+2 5 7
+OUTPUT:
+No
+No
+Yes
+No
+Yes*/
 # include <bits/stdc++.h>
 using namespace std;
 const int MAX=10;
