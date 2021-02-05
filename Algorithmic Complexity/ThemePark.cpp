@@ -7,13 +7,8 @@ int a[maxn], f[maxn], h[maxn],V[maxn];
 void nhap()
 {
 	cin >> R>>K>>N;
-	assert(1 <= R && R <= 1e8);
-	assert(1 <= K && K <= 1e9);
-	assert(1 <= N && N <= 1000);
-
-	for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) {
         cin >> a[i];
-        assert(1 <= a[i] && a[i] <= K && a[i] <= 1e7);
 	}
 }
 void TimNhomKet()
@@ -83,7 +78,6 @@ int main()
 
 	int test;
 	cin >> test;
-	assert(1<=test && test <= 50);
 	for (int i = 1; i <= test; i++)
 	{
 		nhap();
