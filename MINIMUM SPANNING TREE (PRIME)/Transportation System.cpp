@@ -45,7 +45,7 @@ int main()
 				{
 					all_taken=false;
 					int xDiff=cities[i].first-cities[cur].first;
-				    int yDiff=cities[i].second-cities[cur].second;
+				        int yDiff=cities[i].second-cities[cur].second;
 					xDiff*=xDiff;
 					yDiff*=yDiff;
 					pq.push(ii(xDiff+yDiff,i));
