@@ -1,3 +1,4 @@
+/*HungVoCs47*/
 # include <bits/stdc++.h>
 using namespace std;
 typedef pair<int,int>ii;
@@ -6,7 +7,7 @@ int main()
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 	while(1)
 	{
-    const int MAXN=1e9;
+                const int MAXN=1e9;
 		int n,m;
 		vector<ii>adj[500];
 		cin>>n>>m;
