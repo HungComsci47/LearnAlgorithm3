@@ -83,8 +83,8 @@ int main()
     for(int i=1;i<=n;i++) visited[i]=false;
     DFS(1);
     ll a[5*MAX];
-    for (int i=2;i<=n;++i) a[w[i]]=children[i]*(n - children[i]);
-	for (int i=0;i<=2*m;++i) {
+    for (int i=2;i<=n;i++) a[w[i]]=children[i]*(n - children[i]);
+	for (int i=0;i<=2*m;i++) {
 		a[i+1]+=a[i]/2;
 		a[i]%=2;
 	}
